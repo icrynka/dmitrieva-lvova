@@ -1,13 +1,16 @@
-Команда:
+Команда: 
 
-Дмитриева Анжела - backend,
+Дмитриева Анжела - backend, 
 
 Львова Ирина - frontend
+
 
 Проект: Choose Movie
 
 
-https://www.figma.com/file/ss7kqnUfj42fkVbzONHjgj/Untitled?type=design&node-id=0%3A1&mode=design&t=pI4MLvLCCVxeORR0-1
+Figma: https://www.figma.com/file/ss7kqnUfj42fkVbzONHjgj/Untitled?type=design&node-id=0%3A1&mode=design&t=pI4MLvLCCVxeORR0-1
+
+Asana: https://app.asana.com/0/1206782317443551/1206782526225849
 
 Что должно быть включено:
 
