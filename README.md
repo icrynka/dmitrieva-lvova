@@ -1,18 +1,18 @@
-# Команда: 
+# Команда
 
 Дмитриева Анжела - backend, 
 
 Львова Ирина - frontend
 
+# Название проекта: Choose Movie
 
-Проект: Choose Movie
+# Figma
+https://www.figma.com/file/ss7kqnUfj42fkVbzONHjgj/Untitled?type=design&node-id=0%3A1&mode=design&t=pI4MLvLCCVxeORR0-1
 
+# Asana
+https://app.asana.com/0/1206782317443551/1206782526225849
 
-Figma: https://www.figma.com/file/ss7kqnUfj42fkVbzONHjgj/Untitled?type=design&node-id=0%3A1&mode=design&t=pI4MLvLCCVxeORR0-1
-
-Asana: https://app.asana.com/0/1206782317443551/1206782526225849
-
-Что должно быть включено:
+# Что должно быть включено:
 
  - Регистрация: ник (не повторяющийся), емейл, пароль (английские буквы и цифры и спец символы от 6 штук).
 Возможно стоит добавить удаление профиля(?);
