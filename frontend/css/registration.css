@@ -1,0 +1,191 @@
+/*******
+********* Profile Image
+******** */
+.custom-file-upload {
+  border-radius: 50%;
+  display: inline-block;
+  position: relative;
+  padding: 6px;
+  cursor: pointer;
+  border: 10px solid #48b5fb;
+  margin-bottom: 25px;
+}
+/* .img-wrap {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  overflow: hidden;
+  border-radius: 50%;
+}
+.img-upload:before {
+  content: '📷';
+  font-size: 90px;
+  position: absolute;
+  padding-top: 80px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  transition: 0.5s ease;
+  background-color: #fff;
+}
+.img-upload:hover:before {
+  content: '📸';
+}
+.new-img-upload {
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 200px 200px;
+} */
+
+.img-wrap {
+  position: relative;
+  width: calc(15vh);
+  height: calc(15vh);
+  overflow: hidden;
+  border-radius: 50%;
+}
+.img-upload:before {
+  content: '📷';
+  font-size: 70px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  width: calc(15vh);
+  height: calc(15vh);
+  border-radius: 50%;
+  transition: 0.5s ease;
+  background-color: #fff;
+}
+.img-upload:hover:before {
+  content: '📸';
+}
+.new-img-upload {
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: calc(15vh) calc(15vh);
+}
+
+.new-img-upload:before {
+  content: none;
+}
+.new-img-upload:hover:before {
+  content: none;
+}
+.photo {
+  width: auto;
+  height: 100%;
+}
+/*********
+********* Radio Btn*/
+.special_btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 30px;
+}
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.button input {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  text-align: center;
+}
+
+.button input[type='radio'] {
+  opacity: 0.011;
+  z-index: 100;
+}
+
+.button input[type='radio']:checked + label {
+  background: linear-gradient(270deg, #3fa1a9, #79f1a4);
+  border-radius: 10px;
+  color: #fff;
+}
+
+.button label {
+  cursor: pointer;
+  min-width: 153px;
+  min-height: 49px;
+  text-align: center;
+}
+/*********
+*********** Misc
+*********/
+.cover {
+  height: 55vh;
+  flex-direction: column;
+  justify-content: space-around;
+  align-self: center;
+  padding: 25px;
+  border: 3px solid #eaeaea;
+  border-radius: 15px;
+}
+.cover1 {
+  /* height: 550px; */
+  flex-direction: column;
+  justify-content: space-around;
+  align-self: center;
+  padding: 25px;
+  border-radius: 15px;
+}
+.icon {
+  margin: 0px;
+}
+.col {
+  flex-direction: column;
+}
+.col img {
+  margin-bottom: 10px;
+  margin-right: 10px;
+}
+.gap {
+  gap: 15px;
+}
+
+/*  Media quiery */
+
+/* .img-wrap {
+  position: relative;
+  width: calc(15vh);
+  height: calc(15vh);
+  overflow: hidden;
+  border-radius: 50%;
+}
+.img-upload:before {
+  content: '📷';
+  font-size: 70px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  width: calc(15vh);
+  height: calc(15vh);
+  border-radius: 50%;
+  transition: 0.5s ease;
+  background-color: #fff;
+}
+.img-upload:hover:before {
+  content: '📸';
+}
+.new-img-upload {
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: calc(15vh) calc(15vh);
+} */

@@ -1,0 +1,134 @@
+.edit-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+  width: 331px;
+}
+
+.prof-img-container {
+  min-height: calc(15vh);
+  min-width: calc(15vh);
+  overflow: hidden;
+  border-radius: 50%;
+  align-self: center;
+  cursor: pointer;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: calc(15vh) calc(15vh);
+  position: relative;
+}
+.img-container-change {
+  border: 5px solid #f8c433;
+}
+
+.radio-edit,
+.edit-input {
+  cursor: pointer;
+  height: 30px;
+  width: 45px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 25px 25px;
+  border-left: 4px solid #48b5fb;
+  background-color: #af8e35;
+  background-image: url('../assets/pen2.png');
+}
+.edit-input {
+  position: relative;
+  cursor: pointer;
+  left: 55%;
+  top: 25px;
+  z-index: 5000;
+  border-left: none;
+  border-radius: 50%;
+  width: 30px;
+}
+
+.edit-input:hover,
+.edit-btn:hover {
+  transform: scale(1.05);
+  box-shadow: 0px 0px 7px #999;
+}
+
+.radio-edit:hover {
+  transform: scale(1.05);
+}
+
+.details {
+  display: flex;
+  flex-direction: column;
+  /* padding: 20px 13%; */
+}
+.radio-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  margin: 5px 0;
+  font-size: 1.17rem;
+}
+
+.edit-btn {
+  align-self: center;
+  margin-top: 10px;
+  cursor: pointer;
+  border-radius: 0px;
+  border: none;
+  border-left: 4px solid #48b5fb;
+  background-color: #af8e35;
+  color: #fff;
+  margin-top: 0px;
+  transition: all 1s linear;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+input {
+  border: 0px;
+  border-bottom: 3px solid #48b5fb;
+  height: 100%;
+  text-transform: uppercase;
+  outline: 0px;
+}
+.msg-footer {
+  height: 50px;
+  width: 50px;
+}
+.radio-container div {
+  position: relative;
+  height: 1.17rem;
+}
+input[type='radio'] {
+  opacity: 0.011;
+  z-index: 100;
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  text-align: center;
+  height: 100%;
+  width: 100%;
+  cursor: pointer;
+}
+input[type='radio']:checked + label {
+  background: #f8c433;
+  border-radius: 10px;
+  color: #fff;
+}
+
+.option {
+  padding: 5px;
+  margin-right: 10px;
+  color: #999;
+  font-size: 1.17rem;
+}
+small {
+  font-size: medium;
+  color: #b18a1f;
+}
