@@ -1,5 +1,4 @@
 require('dotenv').config() 
-const mysql = require('mysql2');
 const bodyParser = require('body-parser')
 const session = require('express-session')
 const express = require('express')
@@ -84,7 +83,7 @@ io.on('connection', (socket) => {
   })
 })
 
-const PORT = process.env.PORT || 3001
+const PORT = process.env.PORT || 3000
 
 server.listen(PORT, () => {
   console.log(`Server running on PORT ${PORT}`)
