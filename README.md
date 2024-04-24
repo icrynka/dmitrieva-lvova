@@ -12,6 +12,7 @@ https://www.figma.com/file/ss7kqnUfj42fkVbzONHjgj/Untitled?type=design&node-id=0
 
 # Asana
 https://app.asana.com/0/1206782317443551/1206782526225849
+https://github.com/users/icrynka/projects/1/views/1
 
 # Что должно быть включено:
 
