@@ -1,4 +1,5 @@
 require('dotenv').config() 
+const mysql = require('mysql2');
 const bodyParser = require('body-parser')
 const session = require('express-session')
 const express = require('express')
