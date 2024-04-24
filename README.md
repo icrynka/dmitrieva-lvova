@@ -1,5 +1,5 @@
 # Название проекта
-Choose Movie
+MovieConnect
 
 # Команда
 
