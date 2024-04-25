@@ -11,7 +11,7 @@ if (!process.env.JAWSDB_URL) {
 
 const pool = mysql.createPool({
     //uri: process.env.JAWSDB_URL
-	host: 185.250.46.244, // Замените на адрес вашего сервера БД
+	host: '185.250.46.244', // Замените на адрес вашего сервера БД
     user: dmitrieva, // Замените на имя пользователя БД
     database: db, // Замените на название вашей БД
     password: qwer1234, // Замените на пароль от пользователя БД
