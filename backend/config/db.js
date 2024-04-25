@@ -1,4 +1,4 @@
-const mysql = require('mysql2');
+/* const mysql = require('mysql2');
 require('dotenv').config();
 
 console.log("JAWSDB_URL:", process.env.JAWSDB_URL); // Логируем строку подключения
@@ -20,3 +20,15 @@ const pool = mysql.createPool({
 });
 
 module.exports = pool.promise();
+ */
+ 
+ 
+ const express = require('express');
+const mongoose = require('mongoose');
+
+mongoose.connect('mongodb://dmitrieva:qwer1234@185.250.46.244:3264/db', {
+  useNewUrlParser: true,
+  useUnifiedTopology: true,
+})
+.then(() => console.log('MongoDB connected'))
+.catch(err => console.error(err));
