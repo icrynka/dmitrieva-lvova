@@ -1,4 +1,4 @@
-require('dotenv').config() 
+require('dotenv').config() // ALLOWS ENVIRONMENT VARIABLES TO BE SET ON PROCESS.ENV SHOULD BE AT TOP
 const bodyParser = require('body-parser')
 const session = require('express-session')
 const express = require('express')
@@ -10,7 +10,7 @@ const cors = require('cors')
 const app = express()
 app.enable('trust proxy')
 
-app.use(express.json({})) 
+app.use(express.json({})) // parse json bodies in the request object
 app.use(function (req, res, next) {
   res.header('Access-Control-Allow-Credentials', true)
   res.header('Access-Control-Allow-Origin', req.headers.origin)
@@ -25,7 +25,8 @@ app.use(function (req, res, next) {
   next()
 })
 
-
+// Middleware
+//allow cookie transfers
 app.use(cookieParser())
 app.use(bodyParser.urlencoded({ extended: true }))
 
@@ -88,5 +89,3 @@ const PORT = process.env.PORT || 3265
 server.listen(PORT, () => {
   console.log(`Server running on PORT ${PORT}`)
 })
-// Listen on pc port
-// app.listen(PORT, () => console.log(`Server running on PORT ${PORT}`))
