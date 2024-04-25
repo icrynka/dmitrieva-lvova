@@ -7,13 +7,13 @@ export default function PersonMsgTab(props) {
   const [info, setInfo] = useState({})
   const [recentMsg, setRecentMsg] = useState(undefined)
   const [url, setUrl] = useState(
-    `https://crud-movie-chris.herokuapp.com/public/uploads/`
+    `http://185.250.46.244:3265/public/uploads/`
   )
   useEffect(() => {
     if (props.person != undefined) {
       setUrl(
         () =>
-          `https://crud-movie-chris.herokuapp.com/public/uploads/${props.person.info.img}`
+          `http://185.250.46.244:3265/public/uploads/${props.person.info.img}`
       )
       setInfo(props.person.info)
       if (props.person.chats.length) {

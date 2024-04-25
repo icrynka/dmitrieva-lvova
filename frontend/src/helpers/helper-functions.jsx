@@ -4,7 +4,7 @@
 
 // send a post request that has a file as well
 export const postReqForm = async (data, location, method = 'POST') => {
-  return await fetch(`https://crud-movie-chris.herokuapp.com/${location}`, {
+  return await fetch(`http://185.250.46.244:3265/${location}`, {
     method: method,
     mode: 'cors',
     credentials: 'include',
@@ -14,7 +14,7 @@ export const postReqForm = async (data, location, method = 'POST') => {
 
 // send standard json post request
 export const postReq = async (data, location) => {
-  return await fetch(`https://crud-movie-chris.herokuapp.com/${location}`, {
+  return await fetch(`http://185.250.46.244:3265/${location}`, {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json',
@@ -28,7 +28,7 @@ export const postReq = async (data, location) => {
 //send a standard get reqest
 export const getReq = async (location) => {
   const res = await fetch(
-    `https://crud-movie-chris.herokuapp.com/${location}`,
+    `http://185.250.46.244:3265/${location}`,
     {
       method: 'GET',
       mode: 'cors',
@@ -39,7 +39,7 @@ export const getReq = async (location) => {
 }
 export const wildReq = async (data, location, method) => {
   const res = await fetch(
-    `https://crud-movie-chris.herokuapp.com/${location}`,
+    `http://185.250.46.244:3265/${location}`,
     {
       method: method,
       headers: {
@@ -112,7 +112,7 @@ export async function authReg(cred, setForm, setMsg) {
     return
   }
   const res = await fetch(
-    'https://crud-movie-chris.herokuapp.com/users/username_check',
+    'http://185.250.46.244:3265/users/username_check',
     {
       method: 'POST',
       headers: {
