@@ -89,5 +89,3 @@ const PORT = process.env.PORT || 3265
 server.listen(PORT, () => {
   console.log(`Server running on PORT ${PORT}`)
 })
-// Listen on pc port
-// app.listen(PORT, () => console.log(`Server running on PORT ${PORT}`))
