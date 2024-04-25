@@ -20,7 +20,7 @@ mongoose.connect('mongodb://dmitrieva:qwer1234@185.250.46.244:3264/db', {
 const userSchema = new mongoose.Schema({
   username: String,
   password: String,
-  // Дополните схему вашими полями
+ 
 });
 
 const User = mongoose.model('User', userSchema);
@@ -35,7 +35,6 @@ app.post('/users', async (req, res) => {
   }
 });
 
-// Замените остальную часть вашего серверного кода здесь...
 
 // Запуск сервера
 const PORT = process.env.PORT || 3265; 
