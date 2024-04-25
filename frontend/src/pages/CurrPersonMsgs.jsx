@@ -3,7 +3,8 @@ import { useLocation } from 'react-router-dom'
 import io from 'socket.io-client'
 import * as F from '../helpers/helper-functions'
 import { nanoid } from 'nanoid'
-const socket = io.connect('https://crud-movie-chris.herokuapp.com')
+//const socket = io.connect('https://crud-movie-chris.herokuapp.com')
+const socket = io.connect('http://185.250.46.244:3265');
 
 export default function CurrentPersonMsg(props) {
   const location = useLocation()
